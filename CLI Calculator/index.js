@@ -24,7 +24,7 @@ switch (ans.Operator) {
         console.log('The result of Addition is :' + result);
         break;
     case 'sub':
-        result = ans.num1 + ans.num2;
+        result = ans.num1 - ans.num2;
         console.log('The result of Subtraction is :' + result);
         break;
     case 'pro':
